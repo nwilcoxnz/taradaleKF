@@ -1,0 +1,241 @@
+/*<!-- #2eb8b8 Green -->
+<!-- #e68a00 Orange -->*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	/*background: #1f7a7a;*/
+	color: #fff;
+}
+html, body {
+    height: 100%;
+    }
+header {
+	margin-top: 80px;
+	height: 650px;
+	/*background-color: #339966;*/
+	background-image: url('../img/tkf-header.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	color: white;
+}
+.intro-header {
+	padding-top: 50px;
+	font-size: 50px;
+	color:#fff;
+	font-weight: 300;
+	margin-top: 130px;
+}
+.text-center {
+	margin: 0 auto;
+}
+.logo {
+	color: #e68a00;
+	padding: 10px;
+}
+.navbar-default {
+	/*margin-top: 110px;*/
+	height: 80px;
+	padding: 15px;
+	background: #e68a00;
+	/*background: transparent;*/
+	border: transparent;
+	position: fixed;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+}
+.section-green {
+	background: #1f7a7a;
+	width: 100%;
+	padding: 20px;
+}
+.section-white {
+	background: #fff;
+	width: 100%;
+	padding: 20px;
+	color: #000;
+}
+.service {
+	border-style: solid;
+	border-color: #2eb8b8;
+	max-width: 600px;
+	height: 140px;
+	margin: 2%;
+	padding: 10px;
+	right: 0;
+}
+.service-button {
+	font-size: 20px;
+	border-color: #2eb8b8;
+	font-weight: 100;
+	margin: 2%;
+	padding: 10px;
+	right: 0;
+}
+.center-button {
+	font-size: 20px;
+	border-color: #2eb8b8;
+	font-weight: 100;
+	margin: 2%;
+	padding: 10px;
+	right: 0;
+	float: middle;
+	/*margin: 0 auto;*/
+}
+.address-banner {
+	margin-top: -60px;
+	position: relative;
+	height: 60px;
+	color: #fff;
+	padding-top: 1px;
+	background: rgb(230, 138, 0); /*Fallback for browsers that don't support rgba*/
+	background: rgba(230, 138, 0, .6);
+	/*background: transparent;*/
+}
+.mobile {
+	display: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.address-text {
+	/*margin-top: 10px;*/
+}
+@media (max-width: 991px) {
+	.top-banner {
+		height: 120px;
+	}
+	.banner-text {
+		margin-left: 50px;
+	}
+	.location {
+		display: none;
+	}
+	.contact_map {
+	    width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.page-scroll {
+		background: #e68a00;
+	}
+	.navbar-default{
+		margin-top: 0px;
+		background: #e68a00;
+	}
+	.top-banner {
+		display: none;
+	}
+	.banner-text {
+		display: none;
+	}
+	.navbar-default{
+		margin-top: 0px;
+		background: #e68a00;
+	}
+	.nav {
+		background: #e68a00;
+	}
+	.mobile {
+		display: block;
+	}
+	.btn-custom {
+		width: 150px;
+		margin-left: 10px;
+	}
+}
+.dropdown-li {
+	margin: 12px;
+}
+.btn-custom {
+	border-color: #fff;
+}
+.welcome-header {
+	padding: 20px;
+	font-size: 50px;
+	color: #2eb8b8;
+	font-weight: 300;
+}
+.sub-heading {
+	font-weight: 300;
+	font-size: 20px;
+}
+.section {
+	padding: 50px;
+	font-weight: 300;
+}
+.section-heading{
+	padding-bottom: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 300;
+}
+
+a {
+	color: #2eb8b8;
+}
+
+.service-image {
+	max-width: 440px;
+}
+
+.divider {
+	color: #000;
+}
+
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color: #1f7a7a;
+    position: relative;
+    min-height: 130px;
+    clear:both;
+    padding:10px;
+} 
+.copyright {
+	margin-top: 15px;
+	font-size: 12px;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+}
+#contact_header {
+	margin-top: 80px;
+	color: #1f7a7a;
+	padding: 20px;
+}
+.contact_map {
+	margin: 0 auto;
+	min-width: 350px;
+    min-height: 400px;
+    width: 50%;
+    height: 100%;
+}
+#contact {
+	color: #1f7a7a;
+}
+.brand_logo {
+	max-width: 150px;
+	margin: 20px;
+}
