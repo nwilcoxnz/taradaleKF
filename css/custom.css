@@ -1,4 +1,5 @@
-/*<!-- #2eb8b8 Green -->
+/*<!-- #2eb8b8 Light Green -->
+#1f7a7a dark green
 <!-- #e68a00 Orange -->*/
 body{
 	font-family: 'Roboto', sans-serif;
@@ -11,7 +12,7 @@ html, body {
     }
 header {
 	margin-top: 80px;
-	height: 650px;
+	height: 450px;
 	/*background-color: #339966;*/
 	background-image: url('../img/tkf-header.png');
 	background-repeat: no-repeat;
@@ -42,7 +43,7 @@ header {
 	/*margin-top: 110px;*/
 	height: 80px;
 	padding: 15px;
-	background: #e68a00;
+	background: #1f7a7a;
 	/*background: transparent;*/
 	border: transparent;
 	position: fixed;
@@ -78,6 +79,14 @@ header {
 	margin: 2%;
 	padding: 10px;
 	right: 0;
+}
+.service-list {
+	
+}
+.service-image {
+	max-width: 440px;
+	min-width: 370px;
+	width: 100%;
 }
 .center-button {
 	font-size: 20px;
@@ -124,11 +133,11 @@ header {
 }
 @media (max-width: 767px) {
 	.page-scroll {
-		background: #e68a00;
+		background: #1f7a7a;
 	}
 	.navbar-default{
 		margin-top: 0px;
-		background: #e68a00;
+		background: #1f7a7a;
 	}
 	.top-banner {
 		display: none;
@@ -138,10 +147,10 @@ header {
 	}
 	.navbar-default{
 		margin-top: 0px;
-		background: #e68a00;
+		background: #1f7a7a;
 	}
 	.nav {
-		background: #e68a00;
+		background: #1f7a7a;
 	}
 	.mobile {
 		display: block;
@@ -151,6 +160,12 @@ header {
 		margin-left: 10px;
 	}
 }
+@media (max-width: 1700px) {
+	.service-list ul {
+		margin-left: 60px;
+	}
+}
+
 .dropdown-li {
 	margin: 12px;
 }
@@ -160,7 +175,7 @@ header {
 .welcome-header {
 	padding: 20px;
 	font-size: 50px;
-	color: #2eb8b8;
+	color: #1f7a7a;
 	font-weight: 300;
 }
 .sub-heading {
@@ -174,7 +189,6 @@ header {
 .section-heading{
 	padding-bottom: 30px;
 }
-
 h1,
 h2,
 h3,
@@ -184,10 +198,6 @@ h4 {
 
 a {
 	color: #2eb8b8;
-}
-
-.service-image {
-	max-width: 440px;
 }
 
 .divider {
