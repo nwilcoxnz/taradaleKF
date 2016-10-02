@@ -26,9 +26,10 @@ header {
 	color: white;
 }
 hr {
-	/*color: #1f7a7a;*/
-	/*min-width: 500px;*/
 	border-top-color: #1f7a7a;
+}
+ul hr {
+	border-top-color: #fff;
 }
 .service-info-last {
 	margin-bottom: 50px;
@@ -140,60 +141,9 @@ hr {
 .address-text {
 	/*margin-top: 10px;*/
 }
-@media (max-width: 991px) {
-	.top-banner {
-		height: 120px;
-	}
-	.banner-text {
-		margin-left: 50px;
-	}
-	.location {
-		display: none;
-	}
-	.contact_map {
-	    width: 100%;
-	}
-}
-@media (max-width: 767px) {
-	.page-scroll {
-		background: #1f7a7a;
-	}
-	.navbar-default{
-		margin-top: 0px;
-		background: #1f7a7a;
-	}
-	.top-banner {
-		display: none;
-	}
-	.banner-text {
-		display: none;
-	}
-	.navbar-default{
-		margin-top: 0px;
-		background: #1f7a7a;
-	}
-	.nav {
-		background: #1f7a7a;
-	}
-	.mobile {
-		display: block;
-	}
-	.btn-custom {
-		width: 150px;
-		margin-left: 10px;
-	}
-}
-@media (max-width: 1700px) {
-	.service-list ul {
-		margin-left: 60px;
-	}
-}
-
-.dropdown-li {
-	margin: 12px;
-}
-.btn-custom {
-	border-color: #fff;
+.welcome-blurb {
+	font-size: 25px;
+	margin: 10px;
 }
 .welcome-header {
 	padding: 20px;
@@ -201,6 +151,13 @@ hr {
 	color: #fff;
 	font-weight: 300;
 }
+.dropdown-li {
+	margin: 12px;
+}
+.btn-custom {
+	border-color: #fff;
+}
+
 .sub-heading {
 	font-weight: 300;
 	font-size: 20px;
@@ -273,20 +230,35 @@ a {
 	margin: 20px;
 }
 .service-box {
-	/*padding-top: 60px;*/
 	width: 100%;
 	height: 170px;
-	background: #2aa2a2;
+	background: #1f7a7a;
 	border-radius: 10px;
 	border-color: transparent;
 	font-size: 30px;
 	color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.services-box {
+	background-image: url('../img/toyota.jpeg');
+}
+.findus-box {
+	background-image: url('../img/road.jpeg');
+}
+.contact-box {
+	background-image: url('../img/map.jpeg');
 }
 .service-box a {
 	color: #fff;
 }
 .service-box:hover {
-	background: #34cbcb;
+	opacity: .6;
 }
 .service-quick-link {
 	padding: 10px;
@@ -343,8 +315,99 @@ a {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
+/*------------------- Responsive -------------------*/
+@media (max-width: 1700px) {
+	.service-list ul {
+		margin-left: 60px;
+	}
+}
+@media (max-width: 991px) {
+	.top-banner {
+		height: 120px;
+	}
+	.banner-text {
+		margin-left: 50px;
+	}
+	.location {
+		display: none;
+	}
+	.contact_map {
+	    width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	#portfolio .portfolio-item {
+	    margin: 0 0 30px;
+	  }
+	.page-scroll {
+		background: #1f7a7a;
+	}
+	.navbar-default{
+		margin-top: 0px;
+		background: #1f7a7a;
+	}
+	.top-banner {
+		display: none;
+	}
+	.banner-text {
+		display: none;
+	}
+	.navbar-default{
+		margin-top: 0px;
+		background: #1f7a7a;
+	}
+	.nav {
+		background: #1f7a7a;
+	}
+	.mobile {
+		display: block;
+	}
+	.btn-custom {
+		width: 150px;
+		margin-left: 10px;
+	}
+	.welcome-blurb {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 453px) {
+	.welcome-header {
+		font-size: 40px;
+	}
+}
+@media (max-width: 385px) {
+	.navbar-default .navbar-brand {
+	    font-size: 25px;
+	}
+	.welcome-blurb {
+		font-size: 17px;
+	}
+	.welcome-header {
+		font-size: 35px;
+	}
+}
+@media (max-width: 335px) {
+	.navbar-default .navbar-brand {
+	    font-size: 20px;
+	}
+	h4 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 296px) {
+	.navbar-default .navbar-brand {
+	    font-size: 16px;
+	}
+}
+@media (max-width: 267px) {
+	.navbar-default .navbar-brand {
+	    font-size: 12px;
+	}
+	.welcome-blurb {
+		font-size: 14px;
+	}
+	.welcome-header {
+		font-size: 33px;
+	}
 }
